@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-29T09:25:36 IST" name="Default suite" finished-at="2025-09-29T09:25:57 IST" duration-ms="20609">
+    <groups>
+    </groups>
+    <test started-at="2025-09-29T09:25:36 IST" name="Default test" finished-at="2025-09-29T09:25:57 IST" duration-ms="20609">
+      <class name="amazontest.AmazonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:amazontest.AmazonTest@4b013c76]" started-at="2025-09-29T09:25:36 IST" name="setUp" finished-at="2025-09-29T09:25:41 IST" duration-ms="4524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="amazonFlowTest()[pri:0, instance:amazontest.AmazonTest@4b013c76]" started-at="2025-09-29T09:25:41 IST" name="amazonFlowTest" description="Verify the total price of the product" finished-at="2025-09-29T09:25:57 IST" duration-ms="15751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazontest.AmazonTest@4b013c76]" started-at="2025-09-29T09:25:57 IST" name="tearDown" finished-at="2025-09-29T09:25:57 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazontest.AmazonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
