@@ -1,6 +1,6 @@
-# 🛒 Amazon Automation Framework (Selenium + TestNG + POM)
+# Amazon Automation Framework (Selenium + TestNG + POM)
 
-## 📌 Overview
+## Overview
 This project is a **Selenium WebDriver automation framework** built using:
 - **Java**
 - **TestNG** for test execution
@@ -16,7 +16,7 @@ The framework automates a simple flow on **Amazon.in**:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 src/test/java
 ├── base
