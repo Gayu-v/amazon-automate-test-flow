@@ -1,0 +1,15 @@
+Automated Amazon Test Flow for Product Search using POM
+
+Test Flow
+
+AmazonTest.java   (Test Case using TestNG Framework)
+      │
+      ▼
+ BaseTest.java    (Setup/Teardown: launches browser, driver, waits, reports)
+      │
+      ▼
+ Page (Actions encapsulated in methods and Synchronisation has been implemented)
+   ├── LoginPage.java         → Handles login actions (enter email, password, click login)
+   ├── HomePage.java          → Handles homepage actions (search bar, navigation)
+   ├── SearchResultsPage.java → Handles product search results (filter, click product)
+   └── CartPage.java          → Handles cart actions (update qty, assert price)
